@@ -1,0 +1,33 @@
+{
+  "name": "design",
+  "version": "0.1.0",
+  "description": "web design",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jesmarquez/design.git"
+  },
+  "keywords": [
+    "web",
+    "design"
+  ],
+  "author": "jesmqz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jesmarquez/design/issues"
+  },
+  "homepage": "https://github.com/jesmarquez/design#readme",
+  "dependencies": {
+    "express": "^4.14.0",
+    "materialize-css": "^0.97.8",
+    "pug": "^2.0.0-beta6"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.3.2"
+  }
+}
