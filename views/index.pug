@@ -25,18 +25,55 @@ html
         header
             div.container
                 div.row.s12
-                h1 Comencemos!
-        nav
+                h1 Jobby
+        nav.nav-wrapper
+            ul#nav-mobile.right.hide-on-med-and-down
+                li
+                    a(href='sass.html') Quienes somos
+                li
+                    a(href='badges.html') Contacto
+                li
+                    a(href='collapsible.html') Servicios
+        section#main-section
             div.container
                 div.row
-                    div.col.s2
-                        h2 izq
-                    div.col.s8
-                        h2 Quienes somos!
-                    div.col.s2
-                        h2 der
-        footer#site-footer
-            h3 Copyright
+                    div.col.s6
+                        div#bolsa
+                            div.card.blue-grey.darken-1
+                              div.card-content.white-text
+                                span.card-title Card Title
+                                p
+                                  | I am a very simple card. I am good at containing small bits of information.
+                                  | I am convenient because I require little markup to use effectively.
+                              div.card-action
+                                a(href='#') This is a link
+                                a(href='#') This is a link
+                                                    
+                    div.col.s6
+                        div#gestion
+                            h3 Gestion
+
+        footer.page-footer
+          .container
+            .row
+              .col.l6.s12
+                h5.white-text GianTIC Grupo innovador en TIC's
+                p.grey-text.text-lighten-4 Calle #5 Avenida 35 Las Acacias. Cali. Colombia.
+              .col.l4.offset-l2.s12
+                ul
+                  li
+                    a.grey-text.text-lighten-3(href='#!') Contactos
+                  li
+                    a.grey-text.text-lighten-3(href='#!') Productos
+                  li
+                    a.grey-text.text-lighten-3(href='#!') Aliados
+                  li
+                    a.grey-text.text-lighten-3(href='#!') Organización
+          .footer-copyright
+            .container
+              | © 2016 Copyright 
+              a.grey-text.text-lighten-4.right(href='#!') More Links
+
         script(src='https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js')
         script(src='https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js')
         script(src='app.js' type="application/javascript")
