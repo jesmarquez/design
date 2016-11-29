@@ -3,3 +3,17 @@
 .card {
 	height: 213px;
 }
+
+.login-box,
+.signup-box {
+  background-color: white;
+  border: 1px solid #edeeee;
+  border-radius: 3px;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.signup-form {
+  width: 65%;
+  margin: 0 auto;
+}

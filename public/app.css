@@ -6423,3 +6423,10 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
 
 .card {
   height: 213px; }
+
+.signup-box {
+  background-color: white;
+  border: 1px solid #edeeee;
+  border-radius: 3px;
+  padding: 10px 0;
+  text-align: center; }

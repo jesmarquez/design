@@ -22,6 +22,7 @@
   },
   "homepage": "https://github.com/jesmarquez/design#readme",
   "dependencies": {
+    "empty-element": "^1.0.0",
     "express": "^4.14.0",
     "materialize-css": "^0.97.8",
     "page": "^1.7.1",
