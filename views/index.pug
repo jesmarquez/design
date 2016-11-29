@@ -25,7 +25,8 @@ html
         header
             div.container
                 div.row.s12
-                h1 Jobby
+                a(href='/') 
+                    h1 Jobby
         nav.nav-wrapper
             ul#nav-mobile.right.hide-on-med-and-down
                 li
@@ -34,51 +35,12 @@ html
                     a(href='badges.html') Contacto
                 li
                     a(href='collapsible.html') CRM
-                li
+                lia(href='sass.html') 
                     a(href='collapsible.html') SignI
         section#main-section
-            div.container
-                div.row
-                    div.col.s6
-                        div#bolsa
-                            div.card.blue.darken-3
-                              div.card-content.white-text
-                                span.card-title Bolsa de empleo
-                                p
-                                  | Encuentra opciones para el inicio de tu carrera profesional.
-                                  | Las mejores oportunidades disponibles para ti.
-                              div.card-action
-                                a(href='#') Registrate
-                                a(href='#') Explora!
-                    div.col.s6
-                        div#gestion
-                            div.card.blue.darken-3
-                              div.card-content.white-text
-                                span.card-title Gestión
-                                p
-                                  | Ejecuta las actividades de las prácticas profesionales con recursos y estructuras en TIC.
-                                  | Las mejor gestión en documentos, en calidad, comunicación y conocimiento.
-                              div.card-action
-                                a(href='#') Registrate
-                                a(href='#') Explora!
+
         section#secondary-section
-            div.container
-                div.row
-                    div.col.s12
-                        div#statistics
-                            div.collection
-                                a.collection-item(href='#!')
-                                  span.badge 15
-                                  | Ofertas
-                                a.collection-item(href='#!')
-                                  span.new.badge 4
-                                  | Empresas
-                                a.collection-item(href='#!')
-                                  span.badge 70
-                                  | Practicantes
-                                a.collection-item(href='#!')
-                                  span.badge 4
-                                  | Universidades
+
         footer.page-footer
           .container
             .row
@@ -99,6 +61,6 @@ html
             .container
               | © 2016 Copyright 
               a.grey-text.text-lighten-4.right(href='#!') More Links
-        script(src='https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js')
+        script(src='https://code.jquery.com/jquery-2.2.3.min.js', integrity='sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo=', crossorigin='anonymous')
         script(src='https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js')
         script(src='app.js' type="application/javascript")
