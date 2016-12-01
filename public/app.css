@@ -6463,3 +6463,24 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
 
 .signin-form .btn.btn-signup, .signin-form .btn-signup.btn-large {
   background-color: #125688; }
+
+.header {
+  background-color: #4caf50;
+  color: #388e3c;
+  box-shadow: none;
+  border-bottom: 1px solid #edeeee; }
+
+.jobby {
+  font-family: 'Oleo Script';
+  font-size: 42px;
+  color: white !important; }
+
+#bolsa {
+  margin: 100px; }
+
+#gestion {
+  margin: 100px; }
+
+.page-footer {
+  background-color: #388e3c !important;
+  color: white !important; }

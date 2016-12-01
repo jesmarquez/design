@@ -22,24 +22,21 @@ html
         meta(charset='utf-8')
         title=title
     body
-        header
-            div.container
-                div.row.s12
-                a.brand-logo(href='/') 
-                    h1 Jobby
-        nav.nav-wrapper
-            .container
-                .row
-                    .col.s12
-                        ul#nav-mobile.right.hide-on-med-and-down
-                            li
-                                a(href='sass.html') Nuestro grupo
-                            li
-                                a(href='badges.html') Contacto
-                            li
-                                a(href='collapsible.html') CRM
-                            li
-                                a(href='/signin') SignIn
+        nav.header
+            .nav-wrapper
+                .container
+                    .row
+                        .col.s12
+                            a.brand-logo.jobby(href='/') Jobby 
+                            ul#nav-mobile.right.hide-on-med-and-down
+                                li
+                                    a(href='sass.html') Nuestro grupo
+                                li
+                                    a(href='badges.html') Contacto
+                                li
+                                    a(href='collapsible.html') CRM
+                                li
+                                    a(href='/signin') SignIn
         section#main-section
 
         section#secondary-section
